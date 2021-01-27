@@ -36,12 +36,21 @@ body {
 }
 
 ul {
-  padding: 0;
+  color: #000;
+  background-color: #FFF;
+  display: inline-block;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
   margin: 0;
+  padding: 20px 18px 10px 18px;
+  text-transform: uppercase;
 }
 
 li {
-  color: #FFF;
+  color: #000;
+  background-color: #FFF;
   display: inline-block;
   font-family: 'Oxygen', sans-serif;
   font-size: 16px;
