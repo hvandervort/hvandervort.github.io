@@ -7,33 +7,53 @@
     <title>Textarea element</title>
   </head>
   <body>
+    <br>
+    <br>
+    <hr>
+    <h1>Topside Intelligence</h1>
+    <a href="./index.html">Topside Intelligence</a>
+    <a href="./aboutTopsideIntelligence.html">About TI</a>
+    <a href="./form.html">Upload</a>
+    <hr>  
+	  
+	  
     <section id="overlay">
-      <img src="https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo" id="logo">
+      <img src="./Topside Real Estate Logo 1.svg" id="logo">
       <hr>
       <form action="submission.html" method="POST">
-        <h1>Create a burger!</h1>
-					<section class="protein">
-          <label for="patty">What type of protein would you like?</label>
-    			<input type="text" name="patty" id="patty">
+        <h1>Submit a house:</h1>
+					<section class="use-type">
+          <label for="use-type">What sort of property is under investigation?</label>
+    			<input type="text" name="use-type" id="use-type">
         </section>
         <hr>
-        <section class="patties">
-          <label for="amount">How many patties would you like?</label>
-          <input type="number" name="amount" id="amount">
+        <section class="sqft">
+          <label for="sqft-amount">How many square feet does the property have?</label>
+          <input type="number" name="sqft-amount" id="sqft-amount">
         </section>
         <hr>
-        <section class="cooked">
-          <label for="doneness">How do you want your patty cooked</label>
+	<section class="sale-price">
+          <label for="saleprice-amount">What was the sale price?</label>
+          <input type="number" name="saleprice-amount" id="saleprice-amount">
+        </section>
+        <hr>
+	<section class="vacancy">
+          <label for="vacancy">What percentage is the property vacant?</label>
+          <input type="number" name="vacancy-amount" id="vacancy-amount">
+        </section>
+        <hr>
+        <section class="hold-period">
+          <label for="hold-period">How long has the property been held?</label>
           <br>
-          <span>Rare</span>
-          <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
-          <span>Well-Done</span>
+          <span>0 Years</span>
+          <input type="range" name="hold" id="hold" value="3" min="0" max="10">
+          <span>10+ Years</span>
         </section>
         <hr>
-        <section class="toppings">
-          <span>What toppings would you like?</span>
+        <section class="factors">
+          <span>What factors apply to the property?</span>
           <br>
-          <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+          <input type="checkbox" name="lettuce" id="lettuce" value="lettuce">
           <label for="lettuce">Lettuce</label>
           <input type="checkbox" name="topping" id="tomato" value="tomato">
           <label for="tomato">Tomato</label>
@@ -41,32 +61,32 @@
           <label for="onion">Onion</label>
         </section>
         <hr>
-        <section class="cheesy">
-          <span>Would you like to add cheese?</span>
+        <section class="owner-user">
+          <span>How is the property owned?</span>
           <br>
-          <input type="radio" name="cheese" id="yes" value="yes">
-          <label for="yes">Yes</label>
-          <input type="radio" name="cheese" id="no" value="yes">
-          <label for="no">No</label>
+          <input type="radio" name="owner-user" id="owner-user" value="owner-user">
+          <label for="owner-user">Owner-user</label>
+          <input type="radio" name="investor" id="investor" value="investor">
+          <label for="investor">Investor</label>
         </section>
         <hr>
-        <section class="bun-type">
-          <label for="bun">What type of bun would you like?</label>
-          <select name="bun" id="bun">
-            <option value="sesame">Sesame</option>
-            <option value="potatoe">Potato</option>
-            <option value="pretzel">Pretzel</option>
+        <section class="property-type1">
+          <label for="property-type1">What type of property is it?</label>
+          <select name="property-type" id="property-type">
+            <option value="office">Office</option>
+            <option value="industrial">Industrial</option>
+            <option value="condo">Condo</option>
           </select>
         </section>
         <hr>
-        <section class="sauce-selection">
-          <label for="sauce">What type of sauce would you like?</label>
-          <input list="sauces" id="sauce" name="sauce">
-          <datalist id="sauces">
-            <option value="ketchup"></option>
-            <option value="mayo"></option>
-            <option value="mustard"></option>
-          </datalist>
+	<section class="property-type2">
+          <label for="property-type2">Where is the property located?</label>
+          <select name="property-city" id="property-city>
+            <option value="irvine">Irvine</option>
+            <option value="newport-beach">Newport Beach</option>
+            <option value="costa-mesa">Costa Mesa</option>
+	    <option value="aliso-viejo">Aliso Viejo</option>
+          </select>
         </section>
         <hr>
         <section class="extra-info">
