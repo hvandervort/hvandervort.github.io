@@ -49,10 +49,14 @@ li {
   padding: 0;
 }
 
-#navigation {
+#logo {
+  width: 150px;
+  height: 50px;
   text-align:left;
-  background-color: #F0FFFF;
+  margin: 0;
+  padding: 0;
 }
+
 
 #nav-bar {
   text-align:center;
@@ -80,15 +84,6 @@ li {
   margin: 100;
   padding: 20px 18px 10px 18px;
 }
-
-#logo {
-  width: 150px;
-  height: 50px;
-  text-align:left;
-  margin: 0;
-  padding: 0;
-}
-
 
 .active {
   color: #006400;
