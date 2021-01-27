@@ -3,11 +3,6 @@
   padding:0px;
 }
 
-#TopsideIntelligence {
-  display: block;
-  width:1000px;
-  margin: 50px auto;
-}
 
 p {
   display: block;
@@ -46,6 +41,13 @@ li {
   margin: 0;
   padding: 20px 18px 10px 18px;
   text-transform: uppercase;
+}
+
+#navigation {
+  text-align:right;
+  background-color: #F0FFFF;
+  margin: 0;
+  padding: 0;
 }
 
 .active {
