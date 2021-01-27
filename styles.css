@@ -5,15 +5,15 @@
 
 #TopsideIntelligence {
   display: block;
-  width:100px;
+  width:1000px;
   margin: 50px auto;
 }
 
 p {
   display: block;
-  width: 100px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  width: 1000px;
+  margin: 00px auto;
+  font: 14px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 body {
