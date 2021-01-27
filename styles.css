@@ -53,7 +53,7 @@ li {
   width: 150px;
   height: 50px;
   text-align:left;
-  padding: 100px 100px 100px 100px;
+  padding: 10px 10px 10px 10px;
 
 }
 
@@ -80,8 +80,8 @@ li {
 #bannerphoto {
   text-align:right;
   position: relative;
-  width: 80%;
-  height: 80%;
+  width: 40%;
+  height: 40%;
 }
 
 #bannertext {
