@@ -23,8 +23,8 @@ body {
 }
 
 ul {
-  color: #000;
-  background-color: #EEE;
+  color: #000000;
+  background-color: #F8F8FF;
   display: inline-block;
   font-family: 'Oxygen', sans-serif;
   font-size: 16px;
@@ -36,8 +36,8 @@ ul {
 }
 
 li {
-  color: #3587A4;
-  background-color: #3587A4;
+  color: #000000;
+  background-color: #F8F8FF;
   display: inline-block;
   font-family: 'Oxygen', sans-serif;
   font-size: 16px;
