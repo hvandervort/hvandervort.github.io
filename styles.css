@@ -69,7 +69,7 @@ li {
 }
 
 .layer {
-    background-color: rgba(248, 247, 216, 0.7);
+    background-color: #6495ED;
     position: absolute;
     top: 0;
     left: 0;
@@ -79,6 +79,7 @@ li {
 
 #bannerphoto {
   text-align:right;
+  position: relative;
 }
 
 #bannertext {
