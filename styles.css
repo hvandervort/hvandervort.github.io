@@ -50,6 +50,22 @@ li {
   padding: 0;
 }
 
+#banner {
+  text-align:left;
+  background-image: url(https://www.dreamystays.com/wp-content/uploads/2018/05/newport-beach-airbnb-sm.jpg);
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  width: 100px;
+  height: 50px;
+  text-align:left;
+  margin: 0;
+  padding: 0;
+}
+
+
 .active {
   color: #006400;
 }
