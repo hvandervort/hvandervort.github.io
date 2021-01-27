@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>About Topside Intelligence</title>
+    <LINK href="styles.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
+    <a href="./index.html">Topside Intelligence</a>
+    <a href="./aboutTI.html">About Me</a>
     <h1>About Topside Intelligence</h1>
+    <div id="introduction"</div>
+    
   </body>
 </html>
