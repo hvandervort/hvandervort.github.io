@@ -46,7 +46,7 @@ ul {
 }
 
 li {
-  color: #000000;
+  color: #3587A4;
   background-color: #FFF;
   display: inline-block;
   font-family: 'Oxygen', sans-serif;
@@ -59,7 +59,7 @@ li {
 }
 
 .active {
-  color: #88CCF1;
+  color: #3587A4;
 }
 
 /* Table */
