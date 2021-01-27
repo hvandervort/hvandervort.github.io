@@ -46,15 +46,17 @@ li {
 #navigation {
   text-align:right;
   background-color: #F0FFFF;
-  margin: 0;
-  padding: 0;
+  margin: 100;
+  padding: 20px 18px 10px 18px;
+  display: inline-block;
 }
 
 #banner {
   text-align:left;
   background-image: url(https://www.dreamystays.com/wp-content/uploads/2018/05/newport-beach-airbnb-sm.jpg);
-  margin: 0;
-  padding: 0;
+  margin: 100;
+  padding: 20px 18px 10px 18px;
+
 }
 
 #logo {
