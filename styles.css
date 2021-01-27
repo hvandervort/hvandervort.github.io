@@ -36,8 +36,8 @@ body {
 }
 
 ul {
-  background: #3587A4;
-  color: #FFF;
+  background-color: #FFF;
+  color: #3587A4;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 100;
