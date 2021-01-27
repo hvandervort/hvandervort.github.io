@@ -22,19 +22,14 @@
       <hr>
       <form action="submission.html" method="POST">
         <h1>Submit a house:</h1>
-					<section class="use-type">
-          <label for="use-type">What sort of property is under investigation?</label>
-    			<input type="text" name="use-type" id="use-type">
-        </section>
-        <hr>
         <section class="sqft">
           <label for="sqft-amount">How many square feet does the property have?</label>
-          <input type="number" name="sqft-amount" id="sqft-amount">
+          <input type="number" name="sqft-amount" id="sqft-amount" placeholder="4000-20000" required>
         </section>
         <hr>
 	<section class="sale-price">
-          <label for="saleprice-amount">What was the sale price?</label>
-          <input type="number" name="saleprice-amount" id="saleprice-amount">
+          <label for="saleprice-amount">What was the sale price? $</label>
+          <input type="number" name="saleprice-amount" id="saleprice-amount" placeholder ="1000000" required>
         </section>
         <hr>
 	<section class="vacancy">
@@ -46,7 +41,7 @@
           <label for="hold-period">How long has the property been held?</label>
           <br>
           <span>0 Years</span>
-          <input type="range" name="hold" id="hold" value="3" min="0" max="10">
+          <input type="range" name="hold" id="hold" value="3" min="0" max="10" required>
           <span>10+ Years</span>
         </section>
         <hr>
@@ -64,7 +59,7 @@
         <section class="owner-user">
           <span>How is the property owned?</span>
           <br>
-          <input type="radio" name="owner-user" id="owner-user" value="owner-user">
+          <input type="radio" name="owner-user" id="owner-user" value="owner-user" required>
           <label for="owner-user">Owner-user</label>
           <input type="radio" name="investor" id="investor" value="investor">
           <label for="investor">Investor</label>
@@ -72,7 +67,7 @@
         <hr>
         <section class="property-type1">
           <label for="property-type1">What type of property is it?</label>
-          <select name="property-type" id="property-type">
+          <select name="property-type" id="property-type" required>
             <option value="office">Office</option>
             <option value="industrial">Industrial</option>
             <option value="condo">Condo</option>
@@ -81,7 +76,7 @@
         <hr>
 	<section class="property-type2">
           <label for="property-type2">Where is the property located?</label>
-          <select name="property-city" id="property-city>
+          <select name="property-city" id="property-city required>
             <option value="irvine">Irvine</option>
             <option value="newport-beach">Newport Beach</option>
             <option value="costa-mesa">Costa Mesa</option>
