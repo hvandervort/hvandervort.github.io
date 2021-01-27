@@ -80,6 +80,8 @@ li {
 #bannerphoto {
   text-align:right;
   position: relative;
+  width: 80%;
+  height: 80%;
 }
 
 #bannertext {
