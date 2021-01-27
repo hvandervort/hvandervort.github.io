@@ -79,8 +79,12 @@ li {
 
 #bannerphoto {
   text-align:right;
-  margin: 100;
-  padding: 20px 18px 10px 18px;
+}
+
+#bannertext {
+  text-align:center;
+  color: #000000;
+  margin-right: 100px;
 }
 
 .active {
