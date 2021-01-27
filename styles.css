@@ -53,14 +53,14 @@ li {
   text-align:left;
   background-color: #F0FFFF;
   margin: 100;
-  padding: 20px 00px 10px 0px;
+  padding: 20px 00px 20px 10px;
 }
 
 #nav-bar {
   text-align:right;
   background-color: #F0FFFF;
   margin: 100;
-  padding: 20px 00px 10px 0px;
+  padding: 20px 100px 20px 0px;
 }
 
 #banner {
